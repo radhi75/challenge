@@ -1,0 +1,74 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+ul li {
+  position: start;
+  display: inline;
+  margin: 20px;
+}
+#navbar header {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: #187bcd;
+  background-image: url(./assets/podcast-block_brush.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1200px;
+}
+
+#buttonnav :hover {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+#mainpage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+#mainpage .para {
+  justify-content: start;
+}
+.video {
+  justify-content: right;
+}
+.buttonvid :hover {
+  display: inline;
+  align-items: flex-end;
+  box-shadow: 10px 10px 5px grey;
+}
+#buttonnav button:nth-child(1) {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 12px;
+}
+#buttonnav button:nth-child(2) {
+  background-color: white;
+  color: blue;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 12px;
+}
+.buttonvid button:nth-child(1) {
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 12px;
+}
+
+.buttonvid button:nth-child(2) {
+  background-color: white;
+  color: crimson;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 12px;
+}
